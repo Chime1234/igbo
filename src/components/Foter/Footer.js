@@ -2,6 +2,10 @@ import React from "react";
 import "./Footer.css"
 import pic10 from "../../img/pic10.PNG"
 import pic11 from "../../img/pic11.PNG"
+import{
+    Link
+  } from "react-router-dom"
+   
 
 
 function Footer() {
@@ -14,9 +18,13 @@ function Footer() {
                         condition and our Privacy Policy <br />
                         use and disclose your personal information including to third parties.
                     </p>
-                    <ol>
-                        <li>Privacy & Policy</li>
-                        <li>Terms & Condition</li>
+                    <ol className="text-white">
+                        <li>
+                            <Link to="/Privacy">Privacy & Policy</Link>
+                        </li>
+                        <li>
+                            <Link to="/Privacy">Terms & condition</Link>
+                        </li>
                     </ol>
                     <img src= {pic11} alt='Nkuzi description'/>
 

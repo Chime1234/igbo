@@ -33,8 +33,8 @@ class Body2 extends React.Component{
                             dolor do amet sint. Velit officia consequat </p>
                         </div>
                     </div>
-                    <div className="text-center">
-                        <img className="img-fluid" alt='Nkuzi description' src= {pic3}/>
+                    <div className="text-center row">
+                        <img className="img-fluid col-sm-12" alt='Nkuzi description' src= {pic3}/>
                     </div>
                 </div>
             </div>
